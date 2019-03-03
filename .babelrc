@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "@babel/env",
+            {
+                "modules": false,
+                "useBuiltIns": "usage",
+                "targets": "> 2%, last 3 versions, not ie <= 7"
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-transform-runtime"
+    ],
+    "comments": true
+}
